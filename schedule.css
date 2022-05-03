@@ -1,0 +1,30 @@
+#main nav ul {
+	float: right;
+	margin-right: -90px;
+	margin-top: 10px;	
+}
+
+#main nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 50px;
+}
+
+#main nav ul li a {
+	font-family: Century Gothic;
+	text-decoration: none;
+	color: #000000;
+	font-size: 20px;
+	padding: 6px 16px;
+	transition: 0.3s all ease-out;
+	letter-spacing: 5px;
+}
+
+#main nav ul li a.active,
+#main nav ul li a:hover {
+	background: #c4d10e;
+	color: rgb(0, 0, 0);
+	transition: 0.4s all ease-out;
+	text-transform: uppercase;
+}
